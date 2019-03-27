@@ -2,7 +2,12 @@
 
 es un ejemplo de implementacion de objetos empleado, donde incluye herencia, polimorfismo,interfaces etc.
 
-Empresa empresa=new Empresa();
+
+
+
+
+
+             Empresa empresa=new Empresa();
 	    List<Empleado> list=new ArrayList<Empleado>();
 		empresa.setLista(list);
 		Gerente gerente=(Gerente)EmpleadoFactory.EmpleadoFactoryBuild(EEmpleado.GERENTE);
